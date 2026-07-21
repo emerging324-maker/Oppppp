@@ -122,7 +122,7 @@
 <body>
 
 <header>
-  <h1>VIT Vellore — Invigilator Check-in</h1>
+  <h1>VIT Vellore — Day 2 Instructions (22 July)</h1>
   <p>Tap "Send" next to each name to open WhatsApp with the message ready — just hit send there.</p>
   <div class="stats">
     <span>Total: <b id="statTotal">0</b></span>
@@ -148,21 +148,20 @@
 <ul class="list" id="list"></ul>
 
 <footer>
-  91 contacts loaded from VIT_Vellore_HIREPRO_July21-22. "Sent" marks reset if you reload the page — it just helps you track progress within one session.
+  95 contacts loaded from VIT_Vellore_Day2_22July. "Sent" marks reset if you reload the page — it just helps you track progress within one session.
 </footer>
 
 <script>
-const people = [["Tikkaram","8870589425"],["Priya L","9361778937"],["Santhosh M","7094783045"],["Sneha J","9043987421"],["Sanjay Raj","9042131290"],["Sangeetha R","9025656791"],["Kavishanth.E.S","6374550360"],["Sindhuja C","9361605224"],["Kathiravan","6383768986"],["Ashwini","9360740070"],["V Gangadharan","8940477067"],["Priya G","9500553660"],["Naveen Kumar.L","6374139153"],["Prabavathi T","9500684228"],["Kalidhasan","9843535938"],["K.Nivethitha","9345402119"],["Dinesh","7550152197"],["Aruna C","8300128899"],["S.Sakthi Ganesh","7339486565"],["S.Shakthi","8668000309"],["K.Jeeva","8072483098"],["Santhoshi G","6379962362"],["Rajkumar.L","6381817486"],["Lithika","9092131785"],["Manoranjan.M","8667645633"],["Prabhu","9047720166"],["Boobesh.P","6369048239"],["Tharun Kumar","8148084663"],["Asif.S","9342821965"],["Lokesh Kannan","8754627968"],["Dhanush.N","9790476941"],["M. Deva Prasath","9994510522"],["Mohammed Zabiullah.H","8056764941"],["Santhosh.B","6374048044"],["Kamalesh.V","9361712271"],["S. Bharath","9159926413"],["Kishore","9361814622"],["Naveen Kumar R","8098904624"],["Yuvashankar SP","7812814787"],["Kalidas","6382292445"],["Udhaykiran","8122748406"],["Dinesh","6379639105"],["Praveenkumar VR","8825461219"],["Udhayakumar","9344328957"],["Ugendiran V","7397591987"],["Venkat","9360221520"],["S Kesavan","9842905295"],["Sakthivel.G","8973460452"],["Dhanush J","8825729802"],["Harish Balaji R","9344602532"],["Balaji S","6381766867"],["R.Prem Kumar","8825794415"],["V.Barath","6374754734"],["Elaiarasan","8428569650"],["Rajan","8675026248"],["P.Barath","7092488279"],["Williams","9655858754"],["Srikanth","6369590053"],["Dharanidharan G","8438727335"],["Giridhar S","7871234579"],["Ajay J","8189843745"],["Ajay","9342927422"],["Vallavaraj","9361190453"],["Jack","9345438431"],["Kaviraj","6381089445"],["Kishorebalamurugan","8838985989"],["E Sanjay","6374322972"],["Safiulla Nazeer","8124030186"],["Ashfaq","7868046005"],["Venkatesan","8124526795"],["Harish K","8098313895"],["Prasanna Srinivasan","9342695990"],["Samson V","9363125355"],["Lokesh S","9659210076"],["Vicky","8870985041"],["Parthiban C","7094488091"],["Nivesh","6380464346"],["Shiva","9486490530"],["Deepak","8667679337"],["Asfahan","9790020683"],["Akash","8056733909"],["Subhash S","7448625515"],["Abdul Khaliq","9944103971"],["Ashok SV","9344550792"],["Sasikumar R","8220441609"],["Ajay K","8667791227"],["Yukesh V K","8778270735"],["Suhaib","8148226823"],["Kishore P","9487371453"],["D Ilayakumar","8637632452"],["Shyam Iniyan","6381730337"]];
+const people = [["Dhanush J","8825729802"],["Priya L","9361778937"],["Harish Balaji R","9344602532"],["Sneha J","9043987421"],["Balaji S","6381766867"],["Ashwini","9360740070"],["R.Prem Kumar","8825794415"],["Sindhuja C","9361605224"],["Srikanth","6369590053"],["Priya G","9500553660"],["Giridhar S","7871234579"],["Prabavathi T","9500684228"],["Ajay J","8189843745"],["K.Nivethitha","9345402119"],["Parthiban C","7094488091"],["S.Shakthi","8668000309"],["V.Barath","6374754734"],["Aruna C","8300128899"],["AKASH M","8838580435"],["Lithika","9092131785"],["Sudharson S.V","6380519654"],["Yukesh V K","8778270735"],["Santhosh.B","6374048044"],["Dhanush.N","9790476941"],["Md Zabiullah","8056764941"],["Deva Prasad.M","9994510522"],["Kamalesh.V","9361712271"],["Tikkaram","8870589425"],["Santhosh M","7094783045"],["Sanjay Raj","9042131290"],["V Gangadharan","8940477067"],["S.Sakthi Ganesh","7339486565"],["Prabhu","9047720166"],["Manoranjan.M","8667645633"],["Tharun Kumar","8148084663"],["Asif.S","9342821965"],["Boobesh.P","6369048239"],["Praveenkumar VR","8825461219"],["Kalidas","6382292445"],["Sakthivel.G","8973460452"],["Subhash S","7448625515"],["Yuvashankar SP","7812814787"],["Ashfaq","7868046005"],["Sasikumar R","8220441609"],["Vallavaraj","9361190453"],["Ashok SV","9344550792"],["Ajay K","8667791227"],["Harish K","8098313895"],["Lokesh S","9659210076"],["P. Barath","7092488279"],["Nivesh","6380464346"],["Kishorebalamurugan","8838985989"],["Kishore","9361814622"],["Rajkumar.L","6381817486"],["Shiva","9486490530"],["Kishore P","9487371453"],["Lokesh Kannan","8754627968"],["Kathiravan","6383768986"],["Abdul Khaliq","9944103971"],["S Kesavan","9842905295"],["S. Bharath","9159926413"],["E Sanjay","6374322972"],["D Ilayakumar","8637632452"],["Ugendiran V","7397591987"],["Akash","8056733909"],["M. Deva Prasath","9994510522"],["Prasanna Srinivasan","9342695990"],["Udhaykiran","8122748406"],["Udhayakumar","9344328957"],["Dinesh","6379639105"],["K.Jeeva","8072483098"],["Vicky","8870985041"],["Williams","9655858754"],["Samson V","9363125355"],["Kavishanth.E.S","6374550360"],["Venkatesan","8124526795"],["Asfahan","9790020683"],["Suhaib","8148226823"],["Ajay J","8189843745"],["Dinesh","7550152197"],["Naveen Kumar.L","6374139153"],["Rajan","8675026248"],["Akash","7639126562"],["J.MOHAMMED ZAIN","9384667944"],["V B ROHITH KUMAR","9786537985"],["G.LOKESH KUMAR","9790214010"],["R.Prem Kumar","8825794415"],["Elaiarasan","8428569650"],["Ajay","9342927422"],["Deepak","8667679337"],["Safiulla Nazeer","8124030186"],["V P Lognath","7598245830"],["Gousik Rajkumar","9043450905"],["shyam iniyan","6381730337"],["Kaviraj","6381089445"]];
 
-const MESSAGE_TEMPLATE = "Hi {NAME},\nAre you going tmrw for VIT invigilator work?\n\nPlease reply with just one word:\n👉 YES\n👉 NO";
+const MESSAGE_TEMPLATE = "Hi there {NAME}\n\n• Please reach the gate between 7:15 AM – 7:20 AM.\n\n• After entering, go directly to the PRP Building – 7th Floor.\n\n⏰ Don't be late.\n\n👔 Wear formals (same as today).\n\nThank You !\n\nGood Night !!";
 
 document.getElementById('previewText').textContent = MESSAGE_TEMPLATE.replace('{NAME}', '<Name>');
 
 const sentState = new Array(people.length).fill(false);
 
 function buildMessage(name){
-  const firstName = name.split(/[\s.]/)[0];
-  return MESSAGE_TEMPLATE.replace('{NAME}', firstName);
+  return MESSAGE_TEMPLATE.replace('{NAME}', name);
 }
 
 function waLink(name, phone){
